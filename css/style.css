@@ -1,0 +1,35 @@
+.body {
+    background-color: var(--color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr auto;
+
+    width: 300px;
+    margin: 0 1em 0 1em;
+    background-color: var(--color-1);
+    border-radius: 1.7em;
+}
+
+.card img {
+    padding: 1em;
+    border-radius: 1.7em;
+}
+
+.container {
+    text-align: center;
+    margin: 0 2em 2em 2em;
+}
+
+.title {
+    margin-top: 0;
+    color: var(--color-4);
+}
+
+.text {
+    color: var(--color-3);
+}
